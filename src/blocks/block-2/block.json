@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wordpress-plugin-boilerplate/block-2",
+	"version": "1.0.0",
+	"title": "Block-2",
+	"category": "text",
+	"icon": "no",
+	"description": "Gutenberg block with a simple input field. Publishing after typing anything will show it in the frontend as h1 in green color.",
+	"attributes": {
+		"message": {
+			"type": "string",
+			"source": "text",
+			"selector": "div"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "block-2",
+	"editorScript": "file:../../index.js",
+	"editorStyle": "file:../../index.css",
+	"style": "file:../../style-index.css"
+}

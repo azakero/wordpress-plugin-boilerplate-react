@@ -1,0 +1,28 @@
+{
+  "name": "wordpress-plugin-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is a boilerplate for a plugin that has an admin page and multiple blocks, all created with React.",
+  "author": "John Smith",
+  "license": "GPL v2 or later",
+  "keywords": [
+    "WordPress",
+    "block"
+  ],
+  "homepage": "https://github.com/WordPress/gutenberg-examples/",
+  "repository": "git+https://github.com/WordPress/gutenberg-examples.git",
+  "bugs": {
+    "url": "https://github.com/WordPress/gutenberg-examples/issues"
+  },
+  "main": "build/index.js",
+  "devDependencies": {
+    "@wordpress/scripts": "^24.0.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start"
+  }
+}
